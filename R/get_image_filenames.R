@@ -9,7 +9,7 @@
 #' @import kirby21.scan.1
 #' @import kirby21.scan.2
 #' @export
-get_image_filenames = function(ids, 
+get_image_filenames = function(ids =get_ids(), 
                                modalities = c("FLAIR", "MPRAGE", "T2w"), 
                                visits = c(1,2)){
   modalities = unique(modalities)
