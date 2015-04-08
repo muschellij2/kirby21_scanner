@@ -1,0 +1,12 @@
+Package: kirby21
+Type: Package
+Title: Kirby 21 Accessor Functions
+Version: 1.0
+Date: 2015-04-08
+Author: John Muschelli
+Maintainer: John Muschelli <muschellij2@gmail.com>
+Description: Package for accessing Kirby21 data from 2 packages
+License: GPL-2
+Imports:
+	kirby21.scan.1,
+	kirby21.scan.2

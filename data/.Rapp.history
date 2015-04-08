@@ -1,0 +1,3 @@
+load("/Users/johnmuschelli/Dropbox/Packages/kirby21/data/kirby21_demog.Rda")
+kirby21_demog=demog
+save(kirby21_demog, file="/Users/johnmuschelli/Dropbox/Packages/kirby21/data/kirby21_demog.Rda", compression_level=9)
