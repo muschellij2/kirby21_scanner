@@ -1,4 +1,4 @@
-Package: kirby21
+Package: kirby21.scanner
 Type: Package
 Title: Kirby 21 Accessor Functions
 Version: 1.0
