@@ -5,5 +5,5 @@
 #' @export
 get_ids = function(){
   data(kirby21_demog)
-  return(kirby21_demog$ID)
+  return(unique(kirby21_demog$Subject_ID))
 }
