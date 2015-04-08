@@ -4,8 +4,8 @@
 \alias{get_image_filenames}
 \title{Get Image Filenames}
 \usage{
-get_image_filenames(ids, modalities = c("FLAIR", "MPRAGE", "T2w"),
-  visits = c(1, 2))
+get_image_filenames(ids = get_ids(), modalities = c("FLAIR", "MPRAGE",
+  "T2w"), visits = c(1, 2))
 }
 \arguments{
 \item{ids}{ID to return}
