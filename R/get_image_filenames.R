@@ -25,7 +25,7 @@ get_image_filenames = function(ids,
   df$fname = file.path(df$id, df$fname)
   df$id = NULL
   filenames = mapply(function(x, y){
-    pkg = paste0("kirby.scan.", as.numeric(y))
+    pkg = paste0("kirby21.scan.", as.numeric(y))
     system.file(x, package=pkg)
   }, df$fname, df$visit)
   return(filenames)
